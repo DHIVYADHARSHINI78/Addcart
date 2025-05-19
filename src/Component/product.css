@@ -1,0 +1,55 @@
+.product{
+    width: 200px;
+    height: 250px;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+
+
+.product .img{
+    width: 100%;
+    height: 150px;
+}
+
+.product .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details{
+    padding: 5px;
+
+}
+
+
+.details h3{
+    margin-bottom: 10px;
+    font-size: 14px;
+
+}
+
+.details p{
+
+font-size: 14px;
+font-weight: 500;
+color: brown;
+}
+
+.details button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.details button:hover{
+    background-color: rgb(2,104,104);
+}
+
+
+.btnremove{
+    background-color: red !important;
+}
